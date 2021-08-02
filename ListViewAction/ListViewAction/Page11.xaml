@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ListViewAction.Page11">
+    <ContentPage.Content>
+        <StackLayout
+          Orientation="Vertical" x:Name="layout">
+            <Label Text="Un amigo número i le di un regalo a un amigo número p. También recordó que cada uno de sus amigos recibió exactamente un regalo.
+
+Ahora deseo saber para cada amigo i el número de un amigo que le ha hecho un regalo." FontSize="Large" FontAttributes="Bold"></Label>
+            <Entry Placeholder="n(cantidad de amigos)" x:Name="n_"></Entry>
+            <Entry Placeholder="Amigos" x:Name="k"></Entry>
+            <Button Text="Calcular" Clicked ="Button_Clicked"></Button>
+    
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

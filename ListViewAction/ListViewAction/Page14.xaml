@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ListViewAction.Page14">
+    <ContentPage.Content>
+        <StackLayout
+              Orientation="Vertical" x:Name="layout">
+            <Label Text="Dado un entero n, calcule la siguiente funcion f(n) =  - 1 + 2 - 3 + .. + ( - 1)^n*n" FontSize="Large" FontAttributes="Bold"></Label>
+            <Entry Placeholder="n" x:Name="a1">
+            </Entry>
+            <Button Text="Calcular" Clicked ="Button_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

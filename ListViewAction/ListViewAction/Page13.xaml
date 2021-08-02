@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ListViewAction.Page13">
+    <ContentPage.Content>
+        <StackLayout
+         Orientation="Vertical" x:Name="layout">
+            <Label Text="Dado tres enteros a, b y c imprime el valor máximo que puede obtener utilizando +,* y ( en numeros adyacentes." FontSize="Large" FontAttributes="Bold"></Label>
+            <Entry Placeholder="a" x:Name="a1"></Entry>
+            <Entry Placeholder="b" x:Name="b2"></Entry>
+            <Entry Placeholder="c" x:Name="c3"></Entry>
+                <Button Text="Calcular" Clicked ="Button_Clicked"></Button>
+    
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

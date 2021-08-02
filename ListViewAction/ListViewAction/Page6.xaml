@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ListViewAction.Page6">
+    <ContentPage.Content>
+        <StackLayout
+            Orientation="Vertical" x:Name="layout">
+            <Label Text="Reorganice las sumas e imprima la suma de tal manera que Xenia pueda calcular la suma." FontSize="Large" FontAttributes="Bold"></Label>
+            <Entry Placeholder="Suma a contar" x:Name="word"></Entry>
+            <Button Text="Calcular" Clicked ="Button_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

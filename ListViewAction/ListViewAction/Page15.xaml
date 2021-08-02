@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ListViewAction.Page15">
+    <ContentPage.Content>
+        <StackLayout
+            Orientation="Vertical" x:Name="layout">
+            <Label Text="Entre los n números dados encuentra uno que es diferente en uniformidad." FontSize="Large" FontAttributes="Bold"></Label>
+            <Entry Placeholder="n" x:Name="n_"></Entry>
+            <Entry Placeholder="Numeros" x:Name="k"></Entry>
+            <Button Text="Calcular" Clicked ="Button_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

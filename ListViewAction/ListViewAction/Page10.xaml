@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ListViewAction.Page10">
+    <ContentPage.Content>
+        <StackLayout
+              Orientation="Vertical" x:Name="layout">
+            <Label Text="Dado un número de año, encuentre el número de año mínimo que sea estrictamente mayor que el dado y solo tenga dígitos distintos." FontSize="Large" FontAttributes="Bold"></Label>
+            <Entry Placeholder="Año" x:Name="n1"></Entry>
+            <Button Text="Calcular" Clicked ="Button_Clicked"></Button>
+           
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
